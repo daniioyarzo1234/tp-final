@@ -1,0 +1,152 @@
+
+/* COLORES PRINCIPALES */
+:host {
+  --verde-musgo: #283b27;
+  --verde-oliva: #596b46;
+  --crema: #f4f1e7;
+}
+
+/* PORTADA PRINCIPAL */
+.portada {
+  min-height: 580px;
+  background:
+    linear-gradient(
+      90deg,
+      rgba(20, 35, 22, 0.85),
+      rgba(20, 35, 22, 0.25)
+    ),
+    url('https://fotos.perfil.com/2023/03/17/0317rionegro-1529542.jpg')
+    center / cover no-repeat;
+  color: white;
+}
+
+.texto-portada {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.subtitulo {
+  color: var(--verde-oliva);
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.portada .subtitulo {
+  color: #d5ddc7;
+}
+
+.portada h1 {
+  font-size: clamp(2.5rem, 5vw, 4.5rem);
+  font-weight: bold;
+  line-height: 1.1;
+  margin-bottom: 24px;
+}
+
+.portada h1 span {
+  display: block;
+  color: #c5ad5d;
+}
+
+
+.descripcion {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+
+  font-size: 18px;
+  line-height: 1.7;
+  max-width: 520px;
+  margin-bottom: 30px;
+}
+
+/* BOTONES */
+.btn-verde {
+font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+
+  background-color: var(--verde-musgo);
+  color: white;
+  padding: 12px 25px;
+  border-radius: 6px;
+  text-decoration: none;
+  border: 1px solid var(--verde-musgo);
+}
+
+.btn-verde:hover {
+  background-color: var(--verde-oliva);
+  color: white;
+  border-color: var(--verde-oliva);
+}
+
+/* PRESENTACIÓN */
+.presentacion {
+  background-color:#e8ece3
+}
+
+.presentacion h2,
+.destacados h2 {
+  color: var(--verde-musgo);
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.texto-presentacion {
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.8;
+  color: #555b50;
+}
+
+/* DESTINOS DESTACADOS */
+.destacados {
+  background-color: #ffffff;
+}
+
+.tarjeta-destino {
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.tarjeta-destino img {
+  height: 230px;
+  object-fit: cover;
+}
+
+.tarjeta-destino .card-body {
+  padding: 24px;
+}
+
+.categoria {
+  color: var(--verde-oliva);
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.tarjeta-destino h3 {
+  color: var(--verde-musgo);
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.tarjeta-destino .card-text {
+  color: #555b50;
+  line-height: 1.7;
+}
+
+.enlace-destino {
+  color: var(--verde-musgo);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.enlace-destino:hover {
+  color: var(--verde-oliva);
+  text-decoration: underline;
+}

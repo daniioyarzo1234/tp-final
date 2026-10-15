@@ -1,0 +1,77 @@
+
+/* Barra de navegación */
+.noir-navbar {
+  background-color: #283B27;
+  padding: 14px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+/* Imagen de las montañas */
+.logo-montanas {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.nombre-marca span {
+  color: #c5ad5d;
+  font-weight: 400;
+}
+
+/* Enlaces del menú */
+.noir-navbar .nav-link {
+  color: #F4F1E7;
+  margin-left: 12px;
+  transition: color 0.3s ease;
+}
+
+.noir-navbar .nav-link:hover,
+.noir-navbar .nav-link.active {
+  color: #c5ad5d;
+}
+
+/* Botón de contacto */
+.noir-navbar .noir-contact {
+  border: 1px solid #c5ad5d;
+  border-radius: 4px;
+  padding: 8px 16px;
+  color: #F4F1E7;
+}
+
+.noir-navbar .noir-contact:hover,
+.noir-navbar .noir-contact.active {
+  background-color: #c5ad5d;
+  color: #283B27;
+}
+
+/* Botón del menú en celulares */
+.noir-navbar .navbar-toggler {
+  border-color: #C8B98A;
+}
+
+.noir-navbar .navbar-toggler-icon {
+  filter: brightness(0) invert(1);
+}
+
+/* Adaptación para celulares y tablets */
+@media (max-width: 991px) {
+  .noir-navbar .nav-link {
+    margin-left: 0;
+    padding: 10px 0;
+  }
+
+  .noir-navbar .noir-contact {
+    display: inline-block;
+    margin-top: 5px;
+    padding: 8px 16px;
+  }
+
+  .logo-montanas {
+    width: 40px;
+    height: 36px;
+  }
+
+  .nombre-marca {
+    font-size: 1.05rem;
+  }
+}

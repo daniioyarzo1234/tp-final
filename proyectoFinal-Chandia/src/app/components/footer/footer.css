@@ -1,0 +1,108 @@
+.footer-patagonico {
+  background-color: #293B2B;
+  color: #F0E5D0;
+  padding: 35px 0 0;
+}
+
+.footer-titulo {
+  color: #E8D9BB;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.footer-subtitulo {
+  color: #E8D9BB;
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.footer-descripcion {
+  color: #D1DCC9;
+  font-size: 0.9rem;
+  line-height: 1.7;
+  max-width: 380px;
+}
+
+.footer-eslogan {
+  color: #A8C397;
+  font-size: 0.85rem;
+  font-style: italic;
+}
+
+.footer-lista {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-lista li {
+  margin-bottom: 10px;
+}
+
+.footer-lista a {
+  color: #D1DCC9;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.3s;
+}
+
+/* Redes sociales */
+.footer-redes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.red-social {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 13px;
+  border: 1px solid #718069;
+  border-radius: 8px;
+  color: #E8D9BB;
+  text-decoration: none;
+  font-size: 0.85rem;
+  transition: all 0.3s ease;
+}
+
+.red-social i {
+  font-size: 1.15rem;
+  color: #A8C397;
+}
+
+.red-social:hover {
+  background-color: #A8C397;
+  color: #293B2B;
+  border-color: #A8C397;
+  transform: translateY(-2px);
+}
+
+.red-social:hover i {
+  color: #293B2B;
+}
+
+/* Franja inferior */
+.footer-inferior {
+  border-top: 1px solid #52664F;
+  margin-top: 28px;
+  padding: 16px 0;
+  text-align: center;
+}
+
+.footer-inferior p {
+  color: #D1DCC9;
+  font-size: 0.8rem;
+  margin: 0;
+}
+
+@media (max-width: 767px) {
+  .footer-patagonico {
+    padding-top: 28px;
+  }
+
+  .footer-redes {
+    gap: 8px;
+  }
+}

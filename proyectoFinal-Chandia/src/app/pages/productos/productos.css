@@ -1,0 +1,54 @@
+:host {
+  --verde-musgo: #283b27;
+  --verde-oliva: #596b46;
+  --crema: #f4f1e7;
+}
+
+.destacados {
+  background-color: #ffffff;
+}
+
+.tarjeta-destino {
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.tarjeta-destino img {
+  height: 230px;
+  object-fit: cover;
+}
+
+.tarjeta-destino .card-body {
+  padding: 24px;
+}
+
+.categoria {
+  color: var(--verde-oliva);
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.tarjeta-destino h3 {
+  color: var(--verde-musgo);
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.tarjeta-destino .card-text {
+  color: #555b50;
+  line-height: 1.7;
+}
+
+.enlace-destino {
+  color: var(--verde-musgo);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.enlace-destino:hover {
+  color: var(--verde-oliva);
+  text-decoration: underline;
+}
